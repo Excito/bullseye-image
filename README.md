@@ -109,7 +109,7 @@ EOF
 ```
 - Install the `u-boot-tools` and the `mtd-utils` package:
 ```
-apt-get -y install u-boot-tools mtd-utils
+apt-get -y install libubootenv-tool mtd-utils
 ```
 
 ### User and password creation
