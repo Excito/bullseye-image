@@ -185,5 +185,5 @@ rm /mnt/target/first-boot.txz
 ```
 - Now that the image files are ready, go ahead and create the final tarball:
 ```
-( cd /mnt/target; tar -cJvf /root/bullseye-image.txz .)
+( cd /mnt/target; tar -cJvf /root/bullseye-image.txz --numeric-owner .)
 ```
